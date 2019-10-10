@@ -8,6 +8,6 @@ import retrofit2.http.GET
  * Retrofit Interface for handling employee related communication with server.
  */
 interface HeroService {
-    @GET("/bins/d0gqy")
+    @GET("/bins/avioq")
     fun getAllHeroes(): Call<List<Hero>>
 }
